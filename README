@@ -1,0 +1,8 @@
+See opticalFlow.py for implementation
+
+Included videos:
+    - output.avi
+    - thresholded_temporal_diff.avi
+    - thresholded_temporal_diff.mkv
+
+You can run opticalFlow.py to view the video sequence as it processes, which includes the optical flow sequence and thresholded temporal difference sequence

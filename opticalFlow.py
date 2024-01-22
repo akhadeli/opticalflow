@@ -192,7 +192,7 @@ class OpticalFlow:
 if __name__ == "__main__":
     # Image folder demo
     o = OpticalFlow(IMAGE_FOLDER, save_output=True, path='./armD32im1/')
-    o.process(tile_size=16, arrow_scale=2, threshold_value=40, blur=True, kernelSize=5, debug=False)
+    o.process(tile_size=16, arrow_scale=10, threshold_value=40, blur=False, kernelSize=5, debug=True)
 
     # Video demo
 
